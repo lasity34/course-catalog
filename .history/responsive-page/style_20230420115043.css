@@ -1,5 +1,7 @@
 body {
-  background-image: url("./images/background-darker.jpg");
+  background-image: url(
+    "./images/background-darker.jpg"
+  );
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -87,24 +89,15 @@ body {
 }
 
 #testimonials h2 {
-  text-align: center;
-  color: antiquewhite;
-}
-
-.testimonial_container_section {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+    text-align: center;
+    color: antiquewhite;
 }
 
 .testimonial_container {
-  width: 90%;
-  text-align: center;
-  color: azure;
-  margin: 2em 0;
+    display: flex;
 }
 
-.testimonial_container img {
-  width: 25%;
-  border-radius: 50%;
+.testimonial_container img{
+    width: 20%;
+    border-radius: 50%;
 }

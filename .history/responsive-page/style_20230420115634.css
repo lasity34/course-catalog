@@ -100,11 +100,10 @@ body {
 .testimonial_container {
   width: 90%;
   text-align: center;
-  color: azure;
-  margin: 2em 0;
+  background-color: #5b7553;
 }
 
 .testimonial_container img {
-  width: 25%;
+  width: 20%;
   border-radius: 50%;
 }
