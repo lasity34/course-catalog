@@ -31,9 +31,9 @@ function tutorOvertimeWageCalculator(payPerHour, level) {
         if (totalHours > 40 && level === 1) {
             calculatedPay += (calculatedPay * 0.07) - calculatedPay
         } else if (totalHours > 40 && level === 2) {
-            calculatedPay += (calculatedPay * 0.09) - calculatedPay
+            calculatedPay = (calculatedPay * 0.09) - calculatedPay
         } else if (totalHours > 40 && level === 3) {
-            calculatedPay += (calculatedPay * 1.12) - calculatedPay
+            calculatedPay = (calculatedPay * 1.12) - calculatedPay
         }
 
         

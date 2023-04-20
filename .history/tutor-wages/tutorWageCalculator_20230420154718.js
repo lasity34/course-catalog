@@ -1,5 +1,5 @@
 
-function tutorWageCalculator(payPerHour, level) {
+function tutorOvertimeWageCalculator(payPerHour, level) {
     const hourlyRates = payPerHour.split("-");
     let calculatedPay = 0;
 
