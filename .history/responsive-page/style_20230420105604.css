@@ -33,12 +33,6 @@ body {
     border: 1px solid black;
 }
 
-.course_section_container {
-    display: flex;
-}
-
 .course_container {
-    width: 40%;
-    margin: 1em auto;
     border: 1px solid black;
 }

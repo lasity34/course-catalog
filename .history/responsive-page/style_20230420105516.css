@@ -28,17 +28,10 @@ body {
 }
 
 #courses h2 {
-    margin: 2em auto;
-    width: 50%;
+    
     border: 1px solid black;
 }
 
-.course_section_container {
-    display: flex;
-}
-
-.course_container {
-    width: 40%;
-    margin: 1em auto;
+#course_container {
     border: 1px solid black;
 }

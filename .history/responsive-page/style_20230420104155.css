@@ -6,10 +6,8 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    font-family: 'Hind', sans-serif;
+ 
 }
-
-/* intro */
 
 #intro h2 {
     text-shadow: 2px 2px 4px #000000;
@@ -19,26 +17,7 @@ body {
     width: 65%;
 }
 
-/* courses */
-
 #courses {
-    text-align: center;
-    padding: 2em;
+    margin: 4em auto;
     background-color: aliceblue;
-}
-
-#courses h2 {
-    margin: 2em auto;
-    width: 50%;
-    border: 1px solid black;
-}
-
-.course_section_container {
-    display: flex;
-}
-
-.course_container {
-    width: 40%;
-    margin: 1em auto;
-    border: 1px solid black;
 }
