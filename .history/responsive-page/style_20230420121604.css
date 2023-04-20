@@ -126,7 +126,7 @@ footer img{
 }
 
 #icon_container {
-    width: 33%;
+    width: 200%;
     display: flex;
     justify-content: space-around;
 }

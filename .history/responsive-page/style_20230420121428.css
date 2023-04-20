@@ -124,9 +124,3 @@ footer {
 footer img{
     width: 10%;
 }
-
-#icon_container {
-    width: 33%;
-    display: flex;
-    justify-content: space-around;
-}
