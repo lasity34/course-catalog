@@ -41,7 +41,7 @@ describe("this will test different courses for different prices", function() {
         
         const cost = courseCost("r1", "2023-05-01")
         console.log(cost)
-         assert.deepEqual({ status: "success", code: "r1", description: "Ruby on Rails intro", cost: 5675, discount: 0, amountDue: 5675 } , cost)
+         assert.deepEqual({ status: "success", code: "r1", description: "Intro to PHP course", cost: 8990, discount: 0, amountDue: 8990 } , cost)
      })
  
      it("this should return python course cost with discount", function() {
