@@ -1,0 +1,18 @@
+
+
+
+body {
+    background-image: url(./background-darker.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+ 
+}
+
+#intro h2 {
+    text-shadow: 2px 2px 4px #000000;
+    color: white;
+    margin: 4em auto;
+    text-align: center;
+    width: 65%;
+}

@@ -1,0 +1,14 @@
+
+
+
+body {
+    background-image: url("./background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+ 
+}
+
+#intro h2 {
+    text-align: center;
+}
