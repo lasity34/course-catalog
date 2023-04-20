@@ -5,9 +5,9 @@ describe("this should test if values are true", function() {
     })
 
     it("this should test to see if day number value is true", function() {
-        const cost =   courseCost("r1", "2023-05-32")
+        assert.equal("1", courseCost("r1", "2023-05-21"))
         console.log(cost)
-        assert.deepEqual({ status: "Invalid day" }, cost)
+     const cost =   courseCost("r1", "2023-05-21")
         
     })
 })
@@ -41,7 +41,7 @@ describe("this will test different courses for different prices", function() {
      it("this should test Intro to PHP course course cost without discount", function() {
         
         const cost = courseCost("r1", "2023-05-01")
-      
+        console.log(cost)
          assert.deepEqual({ status: "success", code: "r1", description: "Ruby on Rails intro", cost: 5675, discount: 0, amountDue: 5675 } , cost)
      })
  
