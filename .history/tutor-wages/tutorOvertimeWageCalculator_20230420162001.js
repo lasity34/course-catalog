@@ -3,9 +3,12 @@ function tutorOvertimeWageCalculator(payPerHour, level) {
     let calculatedPay = 0;
     let totalHours = 0;
 
+    if (hours.length > 7 || hours.length < 5) {
+        return 0;
+    }
 
     for (let i = 0; i < hours.length; i++) {
-        const hoursLooped = parseInt(hours[i]);
+        const hoursLooped = parseInt(hours[i], 10);
 
         if (level === 1) {
             calculatedPay += 75 * hoursLooped;
@@ -17,11 +20,6 @@ function tutorOvertimeWageCalculator(payPerHour, level) {
 
         totalHours += hoursLooped;
     }
-
-    if (hours.length > 7 || hours.length < 5) {
-        return 0;
-    }
-
 
     if (totalHours > 40) {
         let overtimeHours = totalHours - 40;
